@@ -33,8 +33,8 @@ struct Card {
         case king = "K"
     }
     
-    let suit: Suit
     let rank: Rank
+    let suit: Suit
     
     var notation: String {
         return rank.rawValue + suit.rawValue

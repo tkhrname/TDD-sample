@@ -15,28 +15,25 @@ class MyAlertTests: XCTestCase {
         
         var card: Card
         
-        card = Card(suit: .heart, rank: .three)
+        card = Card(rank: .three, suit: .heart)
         XCTAssertEqual(card.suit, .heart)
         XCTAssertEqual(card.rank, .three)
         
-        card = Card(suit: .spade, rank: .jack)
+        card = Card(rank: .jack, suit: .spade)
         XCTAssertEqual(card.suit, .spade)
         XCTAssertEqual(card.rank, .jack)
     }
     
     func testCardNation() {
         var card: Card
-        card = Card(suit: .heart, rank: .three)
+        card = Card(rank: .three, suit: .heart)
         XCTAssertEqual(card.notation, "3heart")
         
-        card = Card(suit: .spade, rank: .jack)
+        card = Card(rank: .jack, suit: .spade)
         XCTAssertEqual(card.notation, "Jspade")
-        
-        card = Card(suit: .club, rank: .queen)
-        XCTAssertEqual(card.notation, "Qclub")
     }
     
-    override func setUp() {}            
+    override func setUp() {}
 
     override func tearDown() {}
 
