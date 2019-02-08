@@ -15,6 +15,7 @@
 		6DF14CD921FF4FB900EEAEE4 /* MyAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF14CD821FF4FB900EEAEE4 /* MyAlertTests.swift */; };
 		6DF14CE421FF4FB900EEAEE4 /* MyAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF14CE321FF4FB900EEAEE4 /* MyAlertUITests.swift */; };
 		6DF14CF22200730000EEAEE4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF14CF12200730000EEAEE4 /* Card.swift */; };
+		6DF14CF4220C33C300EEAEE4 /* LifCycleTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF14CF3220C33C300EEAEE4 /* LifCycleTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6DF14CE321FF4FB900EEAEE4 /* MyAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertUITests.swift; sourceTree = "<group>"; };
 		6DF14CE521FF4FB900EEAEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF14CF12200730000EEAEE4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6DF14CF3220C33C300EEAEE4 /* LifCycleTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifCycleTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				6DF14CC321FF4FB800EEAEE4 /* AppDelegate.swift */,
 				6DF14CC521FF4FB800EEAEE4 /* ViewController.swift */,
+				6DF14CF3220C33C300EEAEE4 /* LifCycleTestView.swift */,
 				6DF14CC721FF4FB800EEAEE4 /* Main.storyboard */,
 				6DF14CCA21FF4FB900EEAEE4 /* Assets.xcassets */,
 				6DF14CCC21FF4FB900EEAEE4 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				6DF14CC621FF4FB800EEAEE4 /* ViewController.swift in Sources */,
 				6DF14CF22200730000EEAEE4 /* Card.swift in Sources */,
 				6DF14CC421FF4FB800EEAEE4 /* AppDelegate.swift in Sources */,
+				6DF14CF4220C33C300EEAEE4 /* LifCycleTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
