@@ -22,7 +22,6 @@ enum MessageType {
 }
 
 protocol MessageSenderDelegate {
-    
 }
 
 final class CommonMessageAPI {
@@ -57,6 +56,9 @@ final class MessageSender {
     var image: UIImage? {
         didSet {
             //
+            if !isImageValid {
+                
+            }
         }
     }
     

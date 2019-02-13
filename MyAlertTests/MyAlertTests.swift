@@ -33,6 +33,12 @@ class MyAlertTests: XCTestCase {
         XCTAssertEqual(card.notation, "Jspade")
     }
     
+    func testHasSameSuit() {
+        let card1 = Card(rank: .ace, suit: .heart)
+        let card2 = Card(rank: .two, suit: .heart)
+        XCTAssertTrue(card1.hasSameSuit(card2))
+    }
+    
     override func setUp() {}
 
     override func tearDown() {}
