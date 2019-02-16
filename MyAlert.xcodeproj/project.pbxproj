@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D6DDDC2220FFC1600D26EF4 /* MessageSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6DDDC1220FFC1600D26EF4 /* MessageSender.swift */; };
+		6D6DDDC62217CEF100D26EF4 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6DDDC52217CEF100D26EF4 /* Hand.swift */; };
 		6DF14CC421FF4FB800EEAEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF14CC321FF4FB800EEAEE4 /* AppDelegate.swift */; };
 		6DF14CC621FF4FB800EEAEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF14CC521FF4FB800EEAEE4 /* ViewController.swift */; };
 		6DF14CC921FF4FB800EEAEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF14CC721FF4FB800EEAEE4 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		6D6DDDC1220FFC1600D26EF4 /* MessageSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSender.swift; sourceTree = "<group>"; };
+		6D6DDDC52217CEF100D26EF4 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 		6DF14CC021FF4FB800EEAEE4 /* MyAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF14CC321FF4FB800EEAEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF14CC521FF4FB800EEAEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				6DF14CCF21FF4FB900EEAEE4 /* Info.plist */,
 				6DF14CF12200730000EEAEE4 /* Card.swift */,
 				6D6DDDC1220FFC1600D26EF4 /* MessageSender.swift */,
+				6D6DDDC52217CEF100D26EF4 /* Hand.swift */,
 			);
 			path = MyAlert;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				6DF14CC621FF4FB800EEAEE4 /* ViewController.swift in Sources */,
 				6DF14CF22200730000EEAEE4 /* Card.swift in Sources */,
+				6D6DDDC62217CEF100D26EF4 /* Hand.swift in Sources */,
 				6D6DDDC2220FFC1600D26EF4 /* MessageSender.swift in Sources */,
 				6DF14CC421FF4FB800EEAEE4 /* AppDelegate.swift in Sources */,
 				6DF14CF4220C33C300EEAEE4 /* LifCycleTestView.swift in Sources */,
