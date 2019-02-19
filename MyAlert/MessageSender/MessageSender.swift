@@ -21,10 +21,17 @@ enum MessageType {
     case official
 }
 
+protocol MessageSenderAPIProtocol {
+    func fetchAll(ofUserId: Int, completion: @escaping ([Message?]) -> Void)
+    func fetch(id: Int, completion: @escaping (Message?) -> Void)
+    func sendTextMessage(text: String, completion: @escaping (TextMessage?) -> Void)
+    func sendImageMessage(image: UIImage, text: String?, completion: @escaping (ImageMessage?) -> Void)
+}
+
 protocol MessageSenderDelegate {
 }
 
-final class CommonMessageAPI {
+final class CommonMessageAPI: MessageSenderAPIProtocol {
     
     func fetchAll(ofUserId: Int, completion: @escaping ([Message?]) -> Void) {}
     
@@ -36,6 +43,13 @@ final class CommonMessageAPI {
 }
 
 final class MessageSender {
+    private let api: MessageSenderAPIProtocol
+    init(api: MessageSenderAPIProtocol) {
+        self.api = api
+    }
+}
+
+final class MessageSenderOld {
     private let api = CommonMessageAPI()
     let messageType: MessageType
     var delegate: MessageSenderDelegate?
@@ -112,3 +126,4 @@ final class MessageSender {
         }
     }
 }
+
